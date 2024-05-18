@@ -7,6 +7,10 @@ Java RESTFul API criada para o Santander Dev Week.
 classDiagram
     class User {
         +String name
+        +Account account
+        +List~Feature~ features
+        +Card card
+        +List~News~ news
     }
 
     class Account {
