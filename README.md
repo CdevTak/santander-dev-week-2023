@@ -31,8 +31,8 @@ classDiagram
         +String description
     }
 
-    User "1" *-- "1" Account : has
-    User "1" *-- "N" Feature : has_many
-    User "1" *-- "1" Card : has
-    User "1" *-- "N" News : has_many
+    User "1" *-- "1" Account
+    User "1" *-- "N" Feature 
+    User "1" *-- "1" Card 
+    User "1" *-- "N" News 
 ```
